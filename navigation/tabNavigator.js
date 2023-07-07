@@ -4,6 +4,7 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import Feed from "./screens/Feed";
 import CreateStory from "./screens/CreateStory";
+import CreatePost from "../screens/CreatePost";
 
 const Tab = createBottomTabNavigator();
 
@@ -31,7 +32,7 @@ export default function BottomTabNavigator() {
         }}
       >
         <Tab.Screen name="Feed" component={Feed} />
-        <Tab.Screen name="Criar História" component={CreateStory} />
+        <Tab.Screen name="Criar Post" component={CreatePost} />
       </Tab.Navigator>
   );
 }

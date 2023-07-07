@@ -7,7 +7,7 @@ import StoryCard from "./storyCard"
 Splash.preventAutoHideAsync()
 
 var fonts = {"bubblegum-sans": require("../assets/fonts/BubblegumSans-Regular.ttf")}
-var stories = require("./temp_stories_pt.json")
+var stories = require("./tempStories.json")
 
 export default class Feed extends Component {
     constructor() {
